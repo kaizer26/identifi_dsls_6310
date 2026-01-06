@@ -1,0 +1,121 @@
+.leaflet-popup-content .popup-form {
+  min-width: 240px;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.leaflet-popup-content .popup-form h4 {
+  margin: 0 0 10px;
+  font-size: 15px;
+  color: #222;
+}
+
+.leaflet-popup-content .popup-form label {
+  font-size: 12px;
+  color: #555;
+  margin-top: 8px;
+  display: block;
+}
+
+.leaflet-popup-content .popup-form input,
+.leaflet-popup-content .popup-form textarea,
+.leaflet-popup-content .popup-form select {
+  width: 100%;
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+.leaflet-popup-content .popup-form textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.leaflet-popup-content .popup-form button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  background: #1976d2;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.leaflet-popup-content .popup-form button:hover {
+  background: #0d47a1;
+}
+
+.leaflet-popup-content .popup-form i {
+  margin-right: 6px;
+  color: #1976d2;
+}
+
+
+.leaflet-popup-content {
+  margin: 10px 12px;
+}
+
+.popup-form {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  min-width: 240px;
+}
+
+.popup-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.popup-header i {
+  color: #1976d2;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 4px;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 7px 8px;
+  font-size: 13px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  min-height: 70px;
+  resize: vertical;
+}
+
+.popup-form button {
+  width: 100%;
+  margin-top: 6px;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  background: #1976d2;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.popup-form button:hover {
+  background: #0d47a1;
+}
